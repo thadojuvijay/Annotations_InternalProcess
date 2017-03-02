@@ -2,6 +2,9 @@
 *when we run the cone class jvm cannot process/understand the MyAnnotationone or MyAnnootation2.
 *when we use our own Annoatations we should develop extra classes to process the Annotation by JVM.
 
+i developed a extra class with name MyApp class.
+once saw that  MyApp class.you will get clarity and  @Retention will used by at Runtime by jvm
+
 we use reflection Api to process Annotations.
 when we supply a class as input to Reflection Api it will displays all information about the class(method,constructors etc..)
 
