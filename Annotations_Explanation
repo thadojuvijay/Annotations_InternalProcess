@@ -1,4 +1,13 @@
-/*we internally use reflection Api to get annotation elements from top of the  calss,
+/*
+*when we run the cone class jvm cannot process/understand the MyAnnotationone or MyAnnootation2.
+*when we use our own Annoatations we should develop extra classes to process the Annotation by JVM.
+
+we use reflection Api to process Annotations.
+when we supply a class as input to Reflection Api it will displays all information about the class(method,constructors etc..)
+
+*ide developers and jvm developers will uses reflection Api.
+
+we internally use reflection Api to get annotation elements from top of the  calss,
 		top of the methods,top of the fields.top of the package level.
 		
 		* in the java.lang.reflect package we have Interface AnnotatedElement.
@@ -49,6 +58,8 @@ public String name();
  * 
  * 
  * */
+
+
 
 /* The jvm will not understand the custom Annotations.which made by programmer.
  * if the jvm want to understand our custom  Annotation then we use 
